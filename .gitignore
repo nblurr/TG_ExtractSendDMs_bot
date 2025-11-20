@@ -1,0 +1,39 @@
+# Configuration file with sensitive credentials
+config.py
+
+_bkp/
+csv/
+csv_exports/  
+*.session
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# CSV files with extracted data
+*.csv
+csv_exports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
