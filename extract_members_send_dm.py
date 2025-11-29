@@ -395,7 +395,7 @@ def get(chat_num):
 # Test mode: Send messages to an existing CSV file
 if args.test_messages:
     import os
-    csv_file = args.test_messages
+    csv_file = "./csv_exports/" + args.test_messages
 
     # Check if file exists
     if not os.path.exists(csv_file):
